@@ -21,6 +21,7 @@ C:\Program Files\Java\jdk1.8.0_51\lib>mvn install:install-file -DgroupId=jdk.too
 3. Run the classes using the following commands:
 
   ```
+  export CLASSPATH=$(hbase classpath)
   java CreateTable
   java ListTables
   java InsertData
